@@ -1,0 +1,6 @@
+CREATE TABLE Marks (
+    rollno INT,
+    subject VARCHAR(30),
+    marks INT,
+    FOREIGN KEY (rollno) REFERENCES Student(rollno)
+);
