@@ -1,0 +1,3 @@
+UPDATE Student 
+SET age = 22 
+WHERE rollno = 1;
