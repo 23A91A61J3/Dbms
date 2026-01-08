@@ -1,0 +1,5 @@
+CREATE TABLE Order (
+    order no. INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT
+);
