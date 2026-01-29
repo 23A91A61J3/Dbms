@@ -1,0 +1,3 @@
+select emp_name, emp_sal
+from employees 
+where dept = hr;
