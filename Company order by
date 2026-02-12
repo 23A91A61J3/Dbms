@@ -1,0 +1,3 @@
+SELECT *
+FROM Company
+ORDER BY age DESC;
