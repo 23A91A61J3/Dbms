@@ -1,0 +1,3 @@
+select dept
+from students 
+where dept = aiml;
