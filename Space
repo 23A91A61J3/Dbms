@@ -1,0 +1,2 @@
+select planet
+from space;
