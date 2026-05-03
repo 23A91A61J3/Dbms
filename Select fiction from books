@@ -1,0 +1,3 @@
+select fiction
+from books
+where rating >= 5;
