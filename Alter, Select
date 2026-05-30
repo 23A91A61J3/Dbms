@@ -1,0 +1,9 @@
+
+ALTER TABLE Orders ADD COLUMN discount REAL DEFAULT 0;
+
+SET discount = total_amount * 0.05
+WHERE total_amount > 900;
+
+SELECT order_id, total_amount, discount 
+FROM Orders
+WHERE discount > 0;
