@@ -1,0 +1,11 @@
+BEGIN TRANSACTION;
+SAVEPOINT S1;
+
+DELETE FROM Orders
+WHERE order_date < '2024-01-20';
+
+DELETE FROM Customers
+WHERE customer_id NOT IN (SELECT DISTINCT customer_id FROM Orders);
+
+SELECT customer_id, name 
+FROM Customers;
