@@ -1,0 +1,8 @@
+BEGIN TRANSACTION;
+SAVEPOINT S1;
+
+DELETE FROM Orders
+WHERE total_amount < 150;
+
+SELECT order_id, customer_id, total_amount 
+FROM Orders;
