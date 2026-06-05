@@ -1,0 +1,4 @@
+ROLLBACK TO S1;
+
+SELECT SUM(total_amount) AS total_revenue 
+FROM Orders;
