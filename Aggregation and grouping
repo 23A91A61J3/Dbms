@@ -1,0 +1,5 @@
+ROLLBACK to S1;
+SELECT strftime('%Y-%m', order_date) AS order_month, COUNT(order_id) AS total_orders 
+FROM Orders
+GROUP BY order_month
+ORDER BY order_month;
