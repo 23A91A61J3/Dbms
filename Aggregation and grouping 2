@@ -1,0 +1,5 @@
+ROLLBACK TO S1;
+
+SELECT name, price 
+FROM Products
+WHERE price = (SELECT MAX(price) FROM Products);
