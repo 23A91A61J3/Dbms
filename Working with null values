@@ -1,0 +1,7 @@
+UPDATE Customers
+SET new_address = NULL
+WHERE new_address = 'Unknown';
+
+SELECT customer_id, name, new_address
+FROM Customers
+LIMIT 3;
