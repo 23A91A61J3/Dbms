@@ -1,0 +1,4 @@
+
+SELECT order_id, customer_id, order_date 
+FROM Orders 
+WHERE strftime('%Y-%m', order_date) = '2024-01';
