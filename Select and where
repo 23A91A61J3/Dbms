@@ -1,0 +1,3 @@
+select * from Flights
+where gender = 'Female'
+and destination = 'Cairo';
