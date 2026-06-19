@@ -1,0 +1,2 @@
+SELECT * FROM Flights
+WHERE passenger_name LIKE '%a';
