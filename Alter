@@ -1,0 +1,5 @@
+ALTER TABLE orders
+ADD COLUMN new_address TEXT DEFAULT 'Unknown';
+SELECT name, address, new_address
+FROM Customers 
+LIMIT 1;
