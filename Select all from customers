@@ -1,0 +1,4 @@
+SELECT *
+FROM Customer
+JOIN top_purchase
+ON Customer.Customer_id = top_purchase.Customer_id;
