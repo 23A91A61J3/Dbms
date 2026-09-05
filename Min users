@@ -1,0 +1,1 @@
+select MIN(college) from Users;
