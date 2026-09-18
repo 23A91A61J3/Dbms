@@ -1,0 +1,7 @@
+CREATE TABLE EmployeeTraining (
+    EmployeeID VARCHAR(10),
+    CourseID VARCHAR(10),
+    CourseName VARCHAR(50),
+    CompletionDate DATE,
+    PRIMARY KEY (EmployeeID, CourseID)
+);
