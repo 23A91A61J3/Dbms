@@ -1,0 +1,5 @@
+CREATE TABLE SupplierWarehouse (
+SupplierID VARCHAR(10),
+WarehouseLocation VARCHAR(50),
+PRIMARY KEY (SupplierID)
+);
