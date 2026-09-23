@@ -1,0 +1,7 @@
+CREATE TABLE Tests (
+    TestID INT PRIMARY KEY,
+    TestName VARCHAR(100),
+    Date DATE,
+    Time TIME,
+    Result VARCHAR(255)
+);
