@@ -1,0 +1,2 @@
+select * from Flights
+ORDER BY passenger_name;
