@@ -1,0 +1,2 @@
+Select count(*)
+from Given_table;
