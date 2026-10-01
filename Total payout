@@ -1,0 +1,2 @@
+SELECT SUM(Payout) AS total_payout
+FROM EMPLOYEE;
