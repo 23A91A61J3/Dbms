@@ -1,0 +1,3 @@
+SELECT SUM(Payout) as 'product_total_pay'
+FROM employee
+WHERE Department = 'Product';
