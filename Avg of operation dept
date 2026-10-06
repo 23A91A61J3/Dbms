@@ -1,0 +1,3 @@
+SELECT AVG(Payout) as 'ops_avg_pay'
+FROM employee
+WHERE Department = 'Operations';
