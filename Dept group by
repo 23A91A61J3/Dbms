@@ -1,0 +1,5 @@
+SELECT Department, 
+AVG(Payout) AS avg_payout
+FROM employee
+GROUP BY Department
+HAVING COUNT(*) > 3;
