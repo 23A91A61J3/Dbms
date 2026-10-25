@@ -1,0 +1,3 @@
+SELECT Department, 
+       AVG(Payout) AS avg_payout
+FROM employee
