@@ -1,0 +1,5 @@
+INSERT INTO Student VALUES (1, 'Ram', 20);
+UPDATE Student
+SET Age = 21
+WHERE ID = 1;
+SELECT * FROM Student;
