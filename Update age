@@ -1,0 +1,4 @@
+UPDATE Students
+SET Age = 21
+WHERE ID = 1;
+SELECT * FROM Students;
